@@ -1,0 +1,77 @@
+html{
+    box-sizing: border-box;
+    background-image: url(./bg.jpeg);
+    background-attachment:fixed;
+}
+
+.login{
+    text-align: center;
+    font-size: 4rem;
+    color: #677993;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    width:50%;
+    background-color: #F9F3CC;
+    border-radius: 5px;
+    padding: 50px;
+    color:#7993ae;
+    padding-top: 5px;
+    display: inline-block;
+    font-size: 22px;
+    line-height:2;
+    align-items:center;
+    margin-left:300px;
+}
+
+input[type="text"], input[type="password"]{
+    width:400px;
+    padding:12px;
+    margin-left:5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: #4daea1;
+    color:white;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100%;
+}
+
+input[type="submit"]:hover{
+    background-color: #cee1f4;
+    color:#124559;
+}
+
+.forgot{
+    color:#0d385c;
+}
+
+.forgot:hover{
+    color:#6c87f5;
+}
+
+.new-account{
+    color:#04011a;
+    padding-top: 7px;
+    font-size: 15px;
+}
+
+.container{
+    position: relative;
+    z-index: 1;
+}
+
+.triangle{
+    z-index: 0;
+    width:500px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    opacity:0.7;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+}
